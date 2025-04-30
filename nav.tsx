@@ -13,7 +13,7 @@ export type RootStackParamList = {
   Image: undefined;
   // location: undefined;
   location: undefined;
-  Market_Price: undefined;
+ 
   
   // Add more screens here as your app grows
 };
@@ -29,7 +29,6 @@ const AppNavigator = () => {
             {/* <Stack.Screen name="Text" component={TextScreen} /> */}
             <Stack.Screen name="Image" component={imageScreen}/>
             {/* <Stack.Screen name="location" component={LocationAccess} /> */}
-            <Stack.Screen name="location" component={LocationAccess2}/>
             <Stack.Screen name="location" component={LocationAccess2}/>
           </Stack.Navigator>
         </NavigationContainer>
